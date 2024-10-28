@@ -1,0 +1,28 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Launch Chrome",
+            "request": "launch",
+            "type": "chrome",
+            "url": "http://localhost:5000",
+            "webRoot": "${workspaceFolder}"
+        },
+        {
+            "name": "Отладчик Python: Flask",
+            "type": "debugpy",
+            "request": "launch",
+            "module": "flask",
+            "env": {
+                "FLASK_APP": "Chat_bot_for_culinary/app.py",
+                "FLASK_DEBUG": "1"
+            },
+            "args": [
+                "run",
+                "--reload"
+            ],
+            "jinja": true,
+            "autoStartBrowser": false
+        }
+    ]
+}

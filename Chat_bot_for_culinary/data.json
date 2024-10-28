@@ -1,0 +1,14 @@
+[
+    {
+        "title": "Pasta with tomato sauce",
+        "ingredients": ["pasta", "tomatoes", "garlic", "olive oil"],
+        "time": 30,
+        "href": "https://example.com/pasta"
+    },
+    {
+        "title": "Caesar salad",
+        "ingredients": ["romaine", "chicken", "parmesan", "croutons"],
+        "time": 15,
+        "href": "https://example.com/caesar-salad"
+    }
+]

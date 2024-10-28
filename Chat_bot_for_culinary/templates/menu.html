@@ -1,0 +1,24 @@
+<!-- templates/menu.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Culinary Chatbot</title>
+</head>
+<body>
+    <h1>Welcome to Culinary Chatbot</h1>
+    <form action="/search" method="post">
+        <label for="ingredients">Ingredients (comma separated):</label>
+        <input type="text" id="ingredients" name="ingredients" required>
+        
+        <label for="dish_type">Dish Type:</label>
+        <input type="text" id="dish_type" name="dish_type">
+        
+        <label for="diet">Dietary Restrictions:</label>
+        <input type="text" id="diet" name="diet">
+        
+        <button type="submit">Search</button>
+    </form>
+</body>
+</html>
